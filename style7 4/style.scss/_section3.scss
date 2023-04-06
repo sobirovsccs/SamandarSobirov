@@ -1,0 +1,122 @@
+
+.section3 {
+    width: 100%;
+    height: auto;
+    
+
+    
+    .newproducts{
+             display: flex;
+             flex-direction: column;
+            justify-content: center;
+            padding-top: 10%;
+            
+                img{
+                width: 80px;
+                object-fit: cover;
+                display: none;
+               
+    
+                }
+                    h2{
+                     font-size: 40px;
+                     font-weight: 700;
+                     line-height: 50px;
+                     text-align: center;
+                     color: #505050;
+                    }
+                @media(max-width:500px){
+                        padding-top: 10%;
+                        position: relative;
+                      
+                        img{
+                           display: flex;
+                           margin-top: 50px;
+                           margin-left: 41%;
+                         }
+                        h2{
+                           font-size: 24px;
+                           font-weight: 700;
+                           text-align: center;
+                         }
+                } 
+    }
+    .guitar-box{
+           width: 100%;
+           height: auto;
+           
+           display: flex;
+           justify-content: center;
+           gap: 36px;
+           padding: 32px 0;
+           flex-wrap: wrap;
+               .gitara-1{
+                   background: #FFFFFF;
+                   border-radius: 10px 10px 10px 10px;
+                   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                   width: 400px;
+                   height: 380px;
+                        .top{
+                          width: 100%;
+                          height: 60%;
+                         
+                          display: flex;
+                          justify-content: center;
+                              img{
+                                margin-top: -30px;
+                                width: 314px;
+                                height: 260px;
+                                object-fit: cover;
+                              }
+                        }
+                        .bottom{
+                           
+                            .bottomdiv{
+                                display: flex;
+                                padding: 16px 24px;
+                                .name{
+                                  font-size: 18px;
+                                  font-weight: 600;
+                                }
+                                .price{
+                                    margin-left: auto;
+                                    font-size: 18px;
+                                    font-weight: 600;
+
+                                }
+                            }
+                            .comment{
+                                font-size: 16px;
+                                font-weight: 500;
+                                color: #767676;
+                                padding: 0 24px;
+                            }
+                            .productnumber{
+                                margin: 35px 24px;
+                                border: 1px solid #EAEAEA;
+                                border-radius: 20px;
+                                padding: 6px 4px;
+                                width: 115px;
+                                height: 22px;
+                                display: flex;
+                              
+                                align-items: center;
+                                span{
+                                    font-size: 12px;
+                                    font-weight: 700;
+                                    padding-left: 10px;
+                                }
+                                    font-size: 12px;
+                                    font-weight: 500;
+                            }
+                        }
+               }
+              
+    }
+
+
+
+
+
+
+}

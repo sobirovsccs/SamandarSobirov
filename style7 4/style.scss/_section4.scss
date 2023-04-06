@@ -1,0 +1,236 @@
+
+.section4{
+    width: 100%;
+    height: auto;
+    
+
+    .newproducts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20px;
+       
+           img{
+           width: 80px;
+           object-fit: cover;
+           display: none;
+          
+
+           }
+               h2{
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 50px;
+                text-align: center;
+                color: #505050;
+               }
+           @media(max-width:500px){
+                   padding-top: 15px;
+                   position: relative;
+                 
+                   img{
+                      display: flex;
+                      margin-top: 50px;
+                      margin-left: 41%;
+                    }
+                   h2{
+                      font-size: 24px;
+                      font-weight: 700;
+                      text-align: center;
+                    }
+           } 
+    }
+    .product{
+        
+        width: 100%;
+        height: auto;
+        padding: 50px;
+        .box-1{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            gap: 35px;
+            flex-wrap: wrap;
+
+              .box1-1{
+                   width: 616px;
+                   height: 620px;
+                   background-color: #252525;
+                    border-radius: 10px;
+                    @media(max-width:500px){
+                        width: 416px;
+                        height: 420px;
+                        background-color: #252525;
+                         border-radius: 10px;
+                    }
+                   .box11-1{
+                       width: 100%;
+                       height: 75%;
+                       
+                       background-image: url(../img1.png);       
+                       border-radius: 10px 10px 0 0 ;
+                       object-fit: cover;
+                       @media(max-width:500px){
+                        background-size: cover;
+                        background-position: center;
+                        object-fit: cover;
+                    }
+                   }
+                   .box11-2{
+                    width: 100%;
+                    height: 25%;
+                         .p1{
+                           font-size: 24px;
+                           font-weight: 700; 
+                           color: white; 
+                           padding: 32px 0 18px 32px ; 
+                           @media(max-width:500px){
+                          
+                              font-size: 24px;
+                              font-weight: 700;
+                              padding: 22px 0 12px 22px;
+
+                            }
+                         }
+                         .p2{
+                          color: #C4C4C4;
+                          font-size: 18px;
+                          font-weight: 600;
+                          padding: 0 32px ;
+                          @media(max-width:500px){
+                           font-size: 18px;
+                           font-weight: 600;
+                           padding: 0 22px;
+                        }
+                         }
+                   }
+              }
+              .box1-2{
+                   width: 616px;
+                   height: 620px;
+                   background: #EAEAEA;
+                   border-radius: 10px;
+                   @media(max-width:500px){
+                    width: 416px;
+                    height: 420px;
+                    background-color: #252525;
+                     border-radius: 10px;
+                }
+                   .box12-1{
+                    width: 100%;
+                    height: 75%;
+                    background-image: url(../img2.png);
+                    border-radius: 10px 10px 0px 0px ;
+                    object-fit: cover;
+                    @media(max-width:500px){
+                        background-size: cover;
+                        background-position: center;
+                        object-fit: cover;
+                    }
+                   }
+                   .box12-2{
+                    width: 100%;
+                    height: 25%;
+                    background: #EAEAEA;
+                    border-radius: 0 0 10px 10px;
+                    .p1{
+                        font-size: 24px;
+                        font-weight: 700; 
+                        color: #202020; 
+                        padding: 32px 0 18px 32px ; 
+                      }
+                      .p2{
+                       color: #767676;
+                       font-size: 18px;
+                       font-weight: 600;
+                       padding: 0 32px ;
+                      }
+                   }
+              }
+        }
+        .box-2{
+            width: 100%;
+            height: auto;
+           
+            flex-wrap: wrap;
+            gap: 35px;
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+            @media(max-width:500px){
+                padding: 50px 0;
+                
+            }
+            .box2-1{
+                width: 400px;
+                height: 480px;
+                background-color: #252525 ;
+                border-radius: 10px;
+                .box21-1{
+                     width: 100%;
+                     height: 75%;
+                     img{
+                        width: 100%;
+                        height: 100%;
+                        background-position: center;
+                        background-size: cover;
+                        object-fit: cover;
+                        border-radius: 10px 10px 0 0 ;
+                     }
+                }
+                .box21-2{
+                     width: 100%;
+                     height: 25px;
+                     .p1{
+                        font-size: 24px;
+                        font-weight: 700; 
+                        color: white; 
+                        padding: 32px 0 18px 32px ; 
+                      }
+                      .p2{
+                       color: #767676;
+                       font-size: 18px;
+                       font-weight: 600;
+                       padding: 0 32px ;
+                      }
+                }
+            }
+            .box2-2{
+                background-color: #EAEAEA ;
+                border-radius: 10px;
+                width: 400px;
+                height: 480px;
+                .box21-1{
+                    width: 100%;
+                    height: 75%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        background-position: center;
+                        background-size: cover;
+                        object-fit: cover;
+                        border-radius: 10px 10px 0 0;
+                     }
+               }
+               .box21-2{
+                    width: 100%;
+                    height: 25px;
+                    .p1{
+                        font-size: 24px;
+                        font-weight: 700; 
+                        color: #202020; 
+                        padding: 32px 0 18px 32px ; 
+                      }
+                      .p2{
+                       color: #767676;
+                       font-size: 18px;
+                       font-weight: 600;
+                       padding: 0 32px ;
+                      }
+               }
+                
+            }
+        }
+    }
+}
